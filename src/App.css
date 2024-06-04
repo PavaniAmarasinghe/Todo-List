@@ -17,5 +17,120 @@ h1{
   margin-top: 3%;
   max-height: 80vh;
   overflow-y: auto;
-  box-shadow: 0px 5px 7px rgb(29, 28, 28);
+  box-shadow: 0px 5px 7px rgb(66, 31, 57);
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.todo-input-item input:focus{
+  outline:2px solid rgb(122, 9, 94);
+}
+
+.primaryBtn{
+  background-color: rgb(122, 9, 94);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 29px;
+  padding: 8px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover{
+  background-color: rgb(128, 56, 110);
+}
+
+.Secondbtn{
+  background-color: rgb(117, 112, 112);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 29px;
+  padding: 8px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active{
+  background-color: rgb(122, 9, 94);
+  
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-area{
+  margin-bottom: 10px;
+}
+
+.todo-list-item{
+  background-color: rgb(20, 18, 18);
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-items: center;
+  box-shadow: 0px 3px 5px rgb(66, 31, 57);
+  
+}
+
+.todo-list-item h3{
+  font-size: 25px;
+  color: rgb(122, 9, 94);
+  font-weight: bold;
+  margin: 0;
+}
+
+.todo-list-item p{
+  font-size: 14px;
+  color: rgb(73, 70, 70);
+  margin-top: 0px;
+}
+
+.todo-list-item icon{
+  font-size: 35px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.icon:hover{
+  color: red;
+}
+.todo-list-item check-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgb(61, 4, 47);
+  cursor: pointer;
+  
+}
+.check-icon:hover{
+  color: rgb(119, 59, 104);
 }
